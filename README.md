@@ -2,7 +2,7 @@
 
 Example of implementing the SBT docker compose plugin on a Scala project.
 
-This project utilises the [SBT Native Packager](https://github.com/sbt/sbt-native-packager) plugin to generate the app image amd the [SBT Docker Compose](https://github.com/Tapad/sbt-docker-compose) plugin for orchestrating containers.
+This project utilises the [SBT Native Packager](https://github.com/sbt/sbt-native-packager) plugin to generate the app image and the [SBT Docker Compose](https://github.com/Tapad/sbt-docker-compose) plugin for orchestrating containers.
 
 The example here is of a simple [Akka HTTP](https://doc.akka.io/docs/akka-http/current/introduction.html) server.
 
