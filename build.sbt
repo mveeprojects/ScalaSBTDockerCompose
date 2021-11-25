@@ -4,15 +4,15 @@ version := "0.1"
 
 ThisBuild / scalaVersion := "2.13.7"
 
-val AkkaVersion     = "2.6.8"
-val AkkaHttpVersion = "10.2.7"
-val pureConfig      = "0.14.0"
+val AkkaVersion       = "2.6.8"
+val AkkaHttpVersion   = "10.2.7"
+val pureConfigVersion = "0.14.0"
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka"     %% "akka-actor-typed" % AkkaVersion,
   "com.typesafe.akka"     %% "akka-stream"      % AkkaVersion,
   "com.typesafe.akka"     %% "akka-http"        % AkkaHttpVersion,
-  "com.github.pureconfig" %% "pureconfig"       % pureConfig
+  "com.github.pureconfig" %% "pureconfig"       % pureConfigVersion
 )
 
 enablePlugins(JavaAppPackaging, DockerComposePlugin)
