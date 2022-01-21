@@ -8,7 +8,7 @@ The example here is of a simple [Akka HTTP](https://doc.akka.io/docs/akka-http/c
 
 The endpoint that is implemented can be called by curling (GET) `http://localhost:8080/hello`, or by copying this into your browser.
 
-An SBT Alias has been added to demonstrate combining the SBT commands from the docker compose plugin with commands from [SBT integrationTest](https://www.scala-sbt.org/1.x/docs/Testing.html#Integration+Tests) (for example) to form a simple command to build and run the app under test, followed by running tests, and then finally shutting all containers down. All of this can be achieved by just running `sbt "runItTests"` in this example.
+An SBT Alias has been added to demonstrate combining the SBT commands from the docker compose plugin with commands from [SBT integrationTest](https://www.scala-sbt.org/1.x/docs/Testing.html#Integration+Tests) (for example) to form a concise command to build and run the app under test, followed by running tests, and then finally shutting all containers down. All of this can be achieved by just running `sbt "runItTests"` in this example.
 
 ### Steps to implement SBT Docker Compose
 
